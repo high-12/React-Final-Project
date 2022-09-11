@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>
+        Magic Eight Ball
+    </title>
+    <link href="https://fonts.googleapis.com/css?family=Righteous&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="code.js"></script>
+    
+</head>
+<body>
+    
+    <form>
+        <h1>Ask the Eight Ball!!</h1>
+        <br>
+        <textarea id="text" rows="1"cols="50">
+        </textarea>
+        <br>
+        <br>
+        <button id="button" type="button" onclick="getFortune()">Submit</button>
+        <br>
+        <br>
+    </form>
+    <div id="ball_body">
+        <div id="ball_window">
+            <div id="triangle_down">
+                <div id="message_container">
+                    <p id="message">?</p>
+                    </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
